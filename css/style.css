@@ -2,6 +2,7 @@ body
 {
     font-family: monospace;
     text-align: center;
+    background: linear-gradient(45deg, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%);
 }
 
 #main
@@ -21,4 +22,27 @@ img
 ul
 {
     list-style: none;
+}
+#title {
+    font-size: 50px;
+}
+p {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+header {
+    font-size: 40px;
+    margin-top: 20px;
+}
+#img-caption {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-style: italic;
+}
+#img-caption img {
+    width: 40px;
+    height: 30px;
+    filter: invert(100%);
+   
 }
